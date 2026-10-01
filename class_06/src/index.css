@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Home Slider */
+#product-slider {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+#product-slider .swiper {
+  width: 100%;
+  height: 600px;
+}
+
+#product-slider .swiper-slide {
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+
+#product-slider .swiper-slide > div {
+  width: 100%;
+  height: 100%;
+}
+
+#product-slider .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
